@@ -49,3 +49,15 @@ configuration relevant for your application.
 The app skeleton uses a subset of [Foundation](http://foundation.zurb.com/) (v5) CSS
 framework by default. You can, however, replace it with any other library or
 custom styles.
+
+## Bake com adminLTE
+cake bake all users --theme AdminLTE --prefix admin
+
+Ver layout do template 
+    1. src/Template/Element/nav-top.ctp
+    2. src/Template/Element/aside-main-sidebar.ctp
+    3. src/Template/Element/aside/user-panel.ctp
+    4. src/Template/Element/aside/form.ctp
+    5. src/Template/Element/aside/sidebar-menu.ctp
+    6. src/Template/Element/aside-control-sidebar.ctp
+    7. src/Template/Element/footer.ctp
